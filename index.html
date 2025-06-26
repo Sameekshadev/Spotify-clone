@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <title>Spotify - Web Player: Music for everyone</title>
+    
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                   <i class="fa-solid fa-house"></i>
+                   <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                   <i class="fa-solid fa-magnifying-glass"></i>
+                   <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="library_icon.png" alt="library">
+                        <a href="#">Your Library</a>
+                     </div>
+                     <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                     </div>
+                </div>
+                <div class="box">
+                    <p class="box-p1">Create your first playlist</p>
+                    <p class="box-p2">It's easy, we'll help you</p>
+                    <button class="badge">Create playlist</button>
+                </div>
+                <div class="box2">
+                    <p class="box-p1">Let's find some new podcasts to follow</p>
+                    <p class="box-p2">We'll keep you updated on new episodes</p>
+                    <button class="badge">Browse podcasts</button>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="arrows">
+                    <button class="left" >
+                    <img src="backward_icon.png">
+                </button>
+                <button class="right hide">
+                    <img src="forward_icon.png">
+                </button>
+                </div>
+                <div class="info">
+                    <button class="premium hide" >Explore Premium</button>
+                <button class="install"><i class="fa-regular fa-circle-down"></i>
+                     Install App</button>
+                <button class="person"><i class="fa-regular fa-user"></i></button>
+                </div>
+            </div>
+           
+                <h2>Trending now near you</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="card1img.jpeg" alt="">
+                        <h4 class="card-title">Top 50 - Global</h4>
+                        <p class="card-info">Your daily updates of your mostly played ...</p>
+                    </div>
+                </div>
+
+                <h2>Recently Played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="Screenshot 2025-03-28 224219.png" alt="">
+                        <p class="card-title">WILDFLOWER</p>
+                        <p class="card-info">Billie Eilish</p>
+                    </div>
+                
+                
+                    <div class="card">
+                        <img src="Screenshot 2025-03-28 224308.png" alt="">
+                        <p class="card-title">Slipping Through My Fingers</p>
+                        <p class="card-info">ABBA</p>
+                    </div>
+               
+                
+                    <div class="card">
+                        <img src="Screenshot 2025-03-28 224514.png" alt="">
+                        <p class="card-title">Sailor Song</p>
+                        <p class="card-info">Gigi Perez</p>
+                    </div>
+                    <div class="card">
+                        <img src="Screenshot 2025-03-28 224639.png" alt="">
+                        <p class="card-title">Jhol</p>
+                        <p class="card-info">Maanu, Annural Khalid</p>
+                    </div>
+                    <div class="card">
+                        <img src="Screenshot 2025-03-28 224747.png" alt="">
+                        <p class="card-title">Close To You</p>
+                        <p class="card-info">Gracie Abrams</p>
+                    </div>
+                </div>
+                    <h2>Featured Charts</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="card5img.jpeg" alt="">
+                        <h4 class="card-title">Top Songs Global</h4>
+                        <p class="card-info">Your daily updates of Top Songs globally...</p>
+                    </div>
+                    <div class="card">
+                        <img src="card6img.jpeg" alt="">
+                        <h4 class="card-title">Top Songs India</h4>
+                        <p class="card-info">Your daily updates of the most played songs in India...</p>
+                    </div>
+                    <div class="card">
+                        <img src="card1img.jpeg" alt="">
+                        <h4 class="card-title">Top 50 - Global</h4>
+                        <p class="card-info">Your daily updates of your mostly played ...</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="line">
+
+                    </div>
+                </div>
+        </div>
+        
+        <div class="music-player">
+            <div class="album">
+                <img src="Screenshot 2025-03-28 224747.png" alt="" class="poster">
+                <div class="title">
+                     <h5>Close To You</h5>
+                <p>Gracie Abrams<p>
+                </div>
+                <div class="icons">
+                   <img src="album_icon1.png" class="albumicon1" alt="">
+                   <img src="album_icon2.png" class="albumicon2"alt="">
+
+                </div>
+               
+
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="player_icon1.png" class="buttons" alt="">
+                    <img src="player_icon2.png"class="buttons" alt="">
+                    <img src="player_icon3.png" class="play-button" alt="">
+                    <img src="player_icon4.png" class="buttons"alt="">
+                    <img src="player_icon5.png" class="buttons"alt="">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">0:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <img src="controls_icon1.png" class="control-icons1"alt="">
+                <img src="controld_icon2.png" class="control-icons2"alt="">
+                <img src="controls_icon3.png" class="control-icons3"alt="">
+                <img src="controls_icon4.png" class="control-icons4"alt="">
+                <img src="controls_icon5.png" class="control-icons5"alt="">
+                <input type="range" min="0" max="100" class="range-bar">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
